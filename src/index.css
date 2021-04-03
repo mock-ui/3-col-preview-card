@@ -1,14 +1,22 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*,*:focus,*:hover{
+    outline:none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.custom-col-1{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.custom-col-2{
+background-color: hsl(184, 100%, 22%);
+}
+
+.custom-col-3{
+background-color: hsl(179, 100%, 13%);
 }
